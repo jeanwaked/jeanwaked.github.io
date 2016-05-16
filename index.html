@@ -1,12 +1,20 @@
 <html>
 <head>
 <title>Home Page</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300' rel='stylesheet' type='text/css'>
 <style>
 	html {
 		background-color: #F5FFFA;
 		text-align: center;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	h1 {
+		color: #008080;
+		font-family: 'Josefin Sans', sans-serif;
+		margin: 0px;
+		font-size: 25px
 	}
 	h3 {
 		color: #008080;
@@ -16,6 +24,7 @@
 	}
 	body {
 		padding-top: 70px;
+		margin: 0;
 	}
 	a {
 		color: #4682B4;
@@ -25,19 +34,59 @@
   color: #008080;
 	}
 	a:hover{
-	color: #D8BFD8
+	color: #D8BFD8;
 	}
 	footer {
 		color: #008080;
 		font-family: 'Josefin Sans', sans-serif;
 		margin: 0px;
 		font-size: 17px;
+		text-align: center;
 	}
-	#footer {
+
+	#I-like-pie {
+		background-color: #680000;
+		color: white;
+		margin-top: 50px;
+		padding: 60px;
+		position: relative;
+	}
+	#I-like-pie p {
+		max-width: 500px;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	#i-dont-like-apples {
+		padding: 60px;
+		background-color: #800000;
+		color: white;
+		position: relative;
+	}
+	#i-dont-like-apples p {
+		max-width: 500px;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	#i-dont-like-apples h1 {
+		color: #3399CC;
+	}
+	#color-example {
+		background-color: #680000;
+		color: white;
+		padding: 60px;
+		position: relative;
+	}
+	#cake{
 		position:absolute;
-		bottom:0;
-  		text-align:center;
-  		width:100%;
+		bottom: -5px;
+		display: inline-block;
+		z-index: 2;
+	}
+	#apples {
+		position:absolute;
+		bottom: -8px;
+		display: inline-block;
+		z-index: 2;
 	}
 </style>
 </head>
@@ -47,6 +96,45 @@
 	<a href="aboutme.html">About me</a>  |  <a href="portfolio.html">Portfolio</a>  |  <a href="contact.html">Contact</a>
 </h3>
 </body>
+<section id="I-like-pie">
+	<h1>I Like Pie</h1>
+	<p>My landlord looked worse for wear 
+But the greedy bitch couldn't less care.
+Antiquated, dilapidated and moth-eaten,
+<p>She kept on tickin' despite time's beatin'.
+Antediluvian, menopausal and off the pill,
+Senescent, unpleasant and over the hill.
+<p>Frazzled, frayed and full of holes,
+Tattered, shredded like the Dead Sea Scrolls.
+That creaky fossil just wouldn't die,
+She'd ask me for the rent and wouldn't repent,
+<p>So I brained her with a 9-iron 
+And made pumpkin pie.
+<br>
+<div>&nbsp;
+<span id="cake">&nbsp;&#127874;</span>
+</div>
+</section>
+
+<section id="i-dont-like-apples">
+	<h1>I Don't Like Apples</h1>
+<p>Rain hazes a street cart’s green umbrella
+but not its apples, heaped in paper cartons,
+dry under cling film. The apple man,
+
+<p>who shirrs his mouth as though eating tart fruit,
+exhibits four like racehorses at auction:
+Blacktwig, Holland, Crimson King, Salome.
+
+<p>I tried one and its cold grain jolted memory:
+a hill where meager apples fell so bruised
+that locals wondered why we scooped them up,.
+<br>
+<div>&nbsp;
+<span id="apples">&#127822;&#127823;</span>
+</div>
+</section>
+<section id="color-example"></section>
 <footer>
-	<div id="footer">Jean Michael Waked ©</div>
+	Jean Michael Waked ©
 </footer>
