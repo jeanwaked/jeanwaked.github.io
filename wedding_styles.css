@@ -26,7 +26,7 @@ p{
 -----*/
 
 h1 {
-font-family: "lobster",serif;
+font-family: "voluta-script-pro";
 font-style: normal;
 font-weight: 700;
 font-size: 700%;
@@ -40,7 +40,7 @@ text-shadow: 3px 3px #F6C;
 
 h1:hover{
 color:#FFF;
-font-family: "lobster",serif;
+font-family: "voluta-script-pro";
 text-shadow: 3px 3px #909;}
 
 /*-----
@@ -48,7 +48,7 @@ text-shadow: 3px 3px #909;}
 ------*/
 
 h3 {
-font-family: "lobster",serif;
+font-family: "voluta-script-pro";
 font-size:24px;}
 
 /*----
@@ -90,3 +90,4 @@ div.transbox p:hover {
     margin: 5%;
     font-weight: bold;
     color: #00000;
+}
