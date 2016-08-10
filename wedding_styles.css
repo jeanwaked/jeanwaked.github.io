@@ -1,0 +1,92 @@
+html {
+background-image: url("http://hdimagesnew.com/wp-content/uploads/2015/11/love-wallpapers-couple-love-photography-wallpaper-32572.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+nav {
+padding-top: 30px;
+text-decoration: none;
+float: right;
+padding-right: 40px;}
+
+a:hover{
+color: #FFE5BC;
+}
+
+p{
+    text-align: center;
+    line-height: 20px;
+    font-family: "kepler";
+}
+
+/*-----
+    #TITLE-SECTION
+-----*/
+
+h1 {
+font-family: "lobster",serif;
+font-style: normal;
+font-weight: 700;
+font-size: 700%;
+color: #fff;
+line-height: 0.98;
+color:#FFF;
+font-variant: normal;
+font-weight: 500;
+text-shadow: 3px 3px #F6C;
+}
+
+h1:hover{
+color:#FFF;
+font-family: "lobster",serif;
+text-shadow: 3px 3px #909;}
+
+/*-----
+    #SUBTITLE-SECTION
+------*/
+
+h3 {
+font-family: "lobster",serif;
+font-size:24px;}
+
+/*----
+    #More-SECTION
+----*/
+
+
+.more{
+	background-color:paleviolet;
+	border: 5px dotted #F3C;
+	padding:10px 20px 10px 20px;
+	margin:0px 200px 0px 200px;
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */}
+	
+.more:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+	background-color:#FFF;}
+	
+.title{
+	font:Arial, Helvetica, sans-serif;
+	font-size:20px;}
+	
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 5px dotted pink;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: #F6C;
+    color: #000000;
+}
+div.transbox p:hover {
+    margin: 5%;
+    font-weight: bold;
+    color: #00000;
